@@ -5,7 +5,9 @@ import streamlit as st
 about_page = st.Page(
     page="views/about_me.py",
     title="About Me",
-    icon=":material/account_circle:",
+    icon=":material-symbols-outlined:",
+attach_money
+</span>
     default=True,
 )
 project_1_page = st.Page(
@@ -31,7 +33,7 @@ test2_page = st.Page(
 )
 test3_page = st.Page(
     page="views/test3.py",
-    title="스트림릿 테스트 3",
+    title="동전던지기 게임",
     icon=":material/sentiment_satisfied:",
 )
 test4_page = st.Page(
